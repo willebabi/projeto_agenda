@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "${workspaceFolder:projeto_agenda}/db.sqlite3",
+            "driver": "SQLite",
+            "group": "db.sqlite3",
+            "name": "db.sqlite3",
+            "previewLimit": 50
+        }
+    ],
+    "sqltools.useNodeRuntime": true,
+    "git.ignoreLimitWarning": true
+}

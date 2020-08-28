@@ -1,0 +1,14 @@
+python3 -m venv venv
+. venv/bin/activate
+pip install django==2.2.3
+django-admin startproject agenda .
+python manage.py startapp contatos
+
+python manage.py runserver
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+--- admins
+python manage.py createsuperuser
